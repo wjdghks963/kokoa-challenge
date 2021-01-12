@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top div {
+  border-radius: 50%;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  margin: 0 40px;
+}
+
+@keyframes exdiv {
+  from {
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.top {
+  animation: exdiv 1s ease-in-out infinite;
+}
+
+.bottom {
+  width: 300px;
+  height: 200px;
+  margin-top: 300px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.bottom div {
+  background-color: white;
+  width: 30px;
+  height: 130px;
+  margin: 0 7px;
+}
+
+@keyframes bigbig {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  25% {
+    transform: scaleX(1.2) scaleY(1.7);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+#d1 {
+  animation: bigbig 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+#d2 {
+  animation: bigbig 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+#d3 {
+  animation: bigbig 1s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+#d4 {
+  animation: bigbig 1s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+#d5 {
+  animation: bigbig 1s ease-in-out infinite;
+  animation-delay: 0.7s;
+}

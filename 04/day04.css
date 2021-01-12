@@ -1,0 +1,72 @@
+body {
+  height: 150vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+}
+
+.bigbox {
+  display: flex;
+  position: relative;
+  height: 950px;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tomato {
+  background-color: tomato;
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  left: 15%;
+  top: 12%;
+}
+
+.teal {
+  background-color: teal;
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  right: 15%;
+  top: 12%;
+}
+.burlywood {
+  background-color: burlywood;
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  left: 15%;
+  bottom: 0%;
+}
+.thistle {
+  background-color: thistle;
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  right: 15%;
+  bottom: 0%;
+}
+
+.inbox {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  margin-top: 20px;
+}
+span {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
